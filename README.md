@@ -37,15 +37,11 @@ loss_data_fin = loss_landscapes.random_plane(
 ### Mnist
 ![](./images_result/mnist/10e_20s.png)
   
-  
 ![](./images_result/mnist/20e_20steps.png)
-
-  
+ 
 ![](./images_result/mnist/10e_100s.png)
-
   
 ![](./images_result/mnist/100s20_epoch.png)
- 
  
 ## Some of the potential candidate parameters that may affect the loss surface are:
 Some of the potential candidate parameters that may affect the loss surface are:

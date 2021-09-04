@@ -24,5 +24,17 @@ loss_data_fin = loss_landscapes.random_plane(
     normalization='filter', 
     deepcopy_model=True
 )
-```  
-* dfdf
+```
+## Results 
+### Traffic Signs
+  (./images result/mnist/mnist1.png)
+  (./images result/mnist/mnist 10 epoch 100 step.png)
+  (./images result/mnist/100 step 20 epoch.png)
+  (./images result/mnist/20 epoch 20 steps)
+## Some of the potential candidate parameters that may affect the loss surface are:
+Some of the potential candidate parameters that may affect the loss surface are:
+* Number of epochs: as for a too low or too high number of epochs the network may underfit or overfit the data, however finding the best epochs number may give a near to truth surface.
+* Model depth: the deepest our network is the complex the loss function will be.
+* Layer’s order: as the backpropagation literally defines the loss function, and for it layers order is critical.
+* Plotting steps: the higher the steps the smoother our plot is:
+

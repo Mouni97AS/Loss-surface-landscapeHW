@@ -28,16 +28,15 @@ loss_data_fin = loss_landscapes.random_plane(
 ## Results 
 ### Traffic Signs
 
-`Test Input Image`
 
-![Test Input](./images_result/mnist/mnist1.png)
+![](./images_result/mnist/10_20s.png)
   
   
-  (./images result/mnist/mnist 10 epoch 100 step.png)
+![](./images_result/mnist/20e_20steps.png)
   
-  (./images result/mnist/100 step 20 epoch.png)
+![](./images result/mnist/100e_100s.png)
   
-  (./images result/mnist/20 epoch 20 steps)
+ ![](./images_result/mnist/100s20_epoch.png)
 ## Some of the potential candidate parameters that may affect the loss surface are:
 Some of the potential candidate parameters that may affect the loss surface are:
 * Number of epochs: as for a too low or too high number of epochs the network may underfit or overfit the data, however finding the best epochs number may give a near to truth surface.

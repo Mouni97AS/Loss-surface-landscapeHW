@@ -27,7 +27,7 @@ loss_data_fin = loss_landscapes.random_plane(
 ```
 ## Results 
 ### Traffic Signs
-  ![mnist](./images result/mnist/mnist1.png)
+  ![Test Input](./images result/mnist/mnist 10 epoch 100 step.png)
   
   (./images result/mnist/mnist 10 epoch 100 step.png)
   

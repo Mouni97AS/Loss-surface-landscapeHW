@@ -28,8 +28,11 @@ loss_data_fin = loss_landscapes.random_plane(
 ## Results 
 ### Traffic Signs
   ![mnist](./images result/mnist/mnist1.png)
+  
   (./images result/mnist/mnist 10 epoch 100 step.png)
+  
   (./images result/mnist/100 step 20 epoch.png)
+  
   (./images result/mnist/20 epoch 20 steps)
 ## Some of the potential candidate parameters that may affect the loss surface are:
 Some of the potential candidate parameters that may affect the loss surface are:

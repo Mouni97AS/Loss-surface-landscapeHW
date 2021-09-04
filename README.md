@@ -1,8 +1,8 @@
 # Loss-surface-landscapeHW
 
-the repository related to my homework visualizing the loss surface landscape.
-Pytorch implementation of Convolutional neural network for visualizing the loss surface. The project done on google Colab (provide a GPU for training the model).
-I have done the project in two different datasets. big datasets consist of traffic signs of 52 classes, and the Mnist handwritten. 
+This is the repository related to my assignment visualizing the loss surface landscape.
+I used pytorch implementation of convolutional neural network to visualize the loss surface. The project done on google Colab (provide a GPU for training the model).
+I have done the project in two different datasets. Big datasets consist of traffic signs of 52 classes, and the Mnist handwritten. 
 
 ## Visualizing loss surface
 
@@ -27,8 +27,14 @@ loss_data_fin = loss_landscapes.random_plane(
 ```
 ## Results 
 ### Traffic Signs
+![](./images_result/traffic_signs/10s_15e.png)
+
+![](./images_result/traffic_signs/50s_15e.png)
+
+![](./images_result/traffic_signs/20s_8e.png)
 
 
+### Mnist
 ![](./images_result/mnist/10e_20s.png)
   
   
@@ -44,7 +50,7 @@ loss_data_fin = loss_landscapes.random_plane(
 ## Some of the potential candidate parameters that may affect the loss surface are:
 Some of the potential candidate parameters that may affect the loss surface are:
 * Number of epochs: as for a too low or too high number of epochs the network may underfit or overfit the data, however finding the best epochs number may give a near to truth surface.
-* Model depth: the deepest our network is the complex the loss function will be.
-* Layer’s order: as the backpropagation literally defines the loss function, and for it layers order is critical.
-* Plotting steps: the higher the steps the smoother our plot is:
+* Model depth: the deeper the network is, the more complex the loss function will be.
+* Layer’s order:the backpropagation literally defines the loss function, the order of the layers is critical.
+* Plotting steps: the higher the steps the smoother our plot is.
 

@@ -30,7 +30,7 @@ loss_data_fin = loss_landscapes.random_plane(
 
 `Test Input Image`
 
-  ![Test Input](./images result/mnist/mnist1.png)
+  ![Test Input](Loss-surface-landscapeHW/images result/mnist/100 step 20 epoch.png)
   
   
   (./images result/mnist/mnist 10 epoch 100 step.png)

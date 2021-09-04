@@ -29,13 +29,13 @@ loss_data_fin = loss_landscapes.random_plane(
 ### Traffic Signs
 
 
-![](./images_result/mnist/10_20s.png)
+![](./images_result/mnist/10e_20s.png)
   
   
 ![](./images_result/mnist/20e_20steps.png)
 
   
-![](./images_result/mnist/100e_100s.png)
+![](./images_result/mnist/10e_100s.png)
 
   
 ![](./images_result/mnist/100s20_epoch.png)

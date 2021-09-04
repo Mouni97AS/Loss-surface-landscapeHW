@@ -14,7 +14,7 @@ import loss_landscapes.metrics
 x, y = next(iter(testLoader))
 metric = loss_landscapes.metrics.Loss(criterion, x, y)
 ```  
-sampling two random direction vectors in parameter space, and computing the loss at a number of points on the plane defined by the two vectors:
+return a 2-dimensional array of loss values, and computing the loss at a number of points on the plane defined by the two array:
 ```
 loss_data_fin = loss_landscapes.random_plane(
     model_final.cpu(), 

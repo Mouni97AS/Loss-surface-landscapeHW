@@ -48,6 +48,6 @@ loss_data_fin = loss_landscapes.random_plane(
 ## Some of the potential candidate parameters that may affect the loss surface are:
 * Number of epochs: as for a too low or too high number of epochs the network may underfit or overfit the data, however finding the best epochs number may give a near to truth surface.
 * Model depth: the deeper the network is, the more complex the loss function will be.
-* Layer’s order:the backpropagation literally defines the loss function, the order of the layers is critical.
+* Layer’s order:the back propagation literally defines the loss function, the order of the layers is critical.
 * Plotting steps: the higher the steps the smoother our plot is.
 

@@ -31,7 +31,9 @@ loss_data_fin = loss_landscapes.random_plane(
 
 ![](./images_result/traffic_signs/50s_15e.png)
 
-![](./images_result/traffic_signs/20s_8e.png)
+![](./images_result/traffic_signs/10s_7e.png)
+
+![](./images_result/traffic_signs/50s_7e.png)
 
 
 ### Mnist
@@ -44,7 +46,6 @@ loss_data_fin = loss_landscapes.random_plane(
 ![](./images_result/mnist/100s20_epoch.png)
  
 ## Some of the potential candidate parameters that may affect the loss surface are:
-Some of the potential candidate parameters that may affect the loss surface are:
 * Number of epochs: as for a too low or too high number of epochs the network may underfit or overfit the data, however finding the best epochs number may give a near to truth surface.
 * Model depth: the deeper the network is, the more complex the loss function will be.
 * Layer’s order:the backpropagation literally defines the loss function, the order of the layers is critical.
